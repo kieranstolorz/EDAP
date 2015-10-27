@@ -45,7 +45,7 @@
         ifstream fdFPGA, 
         ofstream fdData, fdSave; // file descriptor
         UINT32 time_val = sysTimestampLock(); //ensures that interrupts are disabled
-        char *name = "YPGA" + (char)time_val;
+        char *name = "YPGA" + (char)time_val; /*******do you mean FPGA? ***********//
         char buffer[1024];
         char *temp; string str;
         fdData.open(name, ios::in|ios::out);// file to save data
