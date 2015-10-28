@@ -51,7 +51,7 @@
         fdData.open(name, ios::in|ios::out);// file to save data
         
         fdFPGA.open("/tyCo",O_RDWR,0);
-        ioctl(fdFGPA, FIOOPTIONS, OPT_RAW);
+        ioctl(fdFPGA, FIOOPTIONS, OPT_RAW);
         ioctl(fdFPGA, FIOBAUDRATE, 115200); //setting baud rate
         
         
