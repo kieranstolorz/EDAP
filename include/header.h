@@ -1,6 +1,5 @@
 /*RoughDraft.v1.0 */
 
-
 #include "vxWorks.h"
 #include "msgQLib.h"
 #include "time.h"
@@ -15,8 +14,8 @@ MSG_Q_ID QueueID;
 using namespace std;
 
 struct YPR
- {
-   double pitch;
-   double roll;
-   double yaw;
- }ypr;
+{
+  double pitch;
+  double roll;
+  double yaw;
+} ypr;
